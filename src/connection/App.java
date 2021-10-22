@@ -6,6 +6,6 @@ public class App {
 
         connection.openConnection();
         connection.executeSQL();
-        connection.closeConnection();
+        connection.closeConnection(30001);
     }
 }

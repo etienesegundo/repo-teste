@@ -9,8 +9,8 @@ public class ConnectionFactory {
     public void executeSQL() {
         System.out.println("executando sql do bd");
     }
-    public void closeConnection() {
-        System.out.println("fechando a conexão com o bd");
+    public void closeConnection(long timeout) {
+        System.out.println("fechando a conexão com o bd por causa de timeout");
     }
 
 
